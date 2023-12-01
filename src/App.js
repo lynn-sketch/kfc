@@ -1,5 +1,6 @@
 import React from 'react';
 import KFCMenu from './components/menu'; // Assuming that the KFCMenu component is in the same directory
+import LoginForm from './components/Login';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
           <a href='#home'>Home</a>
           <a href='#menu'>Menu</a>
           <a href='#cart'>Cart</a>
+          <a href='#Login'>Login</a>
         </div>
       </div>
 

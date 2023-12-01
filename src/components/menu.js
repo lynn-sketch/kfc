@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './menu.css'; // Import the CSS file
-
-
 const KFCMenu = () => {
     const [menuItems, setMenuItems] = useState([
         { id: 1, category: 'Chicken', name: 'Original Recipe Chicken', price: 5.79, image: '/images/Biscuits.png' },
@@ -41,6 +39,7 @@ const KFCMenu = () => {
         { id: 23, category: 'Desserts', name: 'Strawberry Cheesecake', price: 5.49, image: '/images/desert2.jpg' },
         { id: 23, category: 'Desserts', name: 'Strawberry Cheesecake', price: 5.49, image: '/images/desert3.jpg' },
     ]);
+
 
     const [cart, setCart] = useState([]);
 
